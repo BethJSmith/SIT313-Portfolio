@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Plain text:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PlainText"
+        android:text="Xamarin" />
+    <Button
+        android:text="Encrypt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EncryptButton" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EncryptedText" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="46.5dp"
+        android:id="@+id/space1" />
+    <TextView
+        android:text="Encrypted text:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CodeText" />
+    <Button
+        android:text="Decrypt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DecryptButton" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DecryptedText" />
+</LinearLayout>
