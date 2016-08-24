@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="TapIcons/TapIcons.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TapIcons/ViewController.cs">
+    <Files>
+      <File FileName="TapIcons/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="TapIcons/Main.cs" Line="1" Column="1" />
+      <File FileName="TapIcons/ViewController.cs" Line="33" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TapIcons PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.773D4A58-FF76-4EF3-92EE-DB6976FE85CF" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

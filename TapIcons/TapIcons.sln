@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TapIcons", "TapIcons\TapIcons.csproj", "{4EC80B69-AC5A-4D7A-87C8-AD9C4A62D74D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EC80B69-AC5A-4D7A-87C8-AD9C4A62D74D}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{4EC80B69-AC5A-4D7A-87C8-AD9C4A62D74D}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{4EC80B69-AC5A-4D7A-87C8-AD9C4A62D74D}.Release|iPhone.ActiveCfg = Release|iPhone
+		{4EC80B69-AC5A-4D7A-87C8-AD9C4A62D74D}.Release|iPhone.Build.0 = Release|iPhone
+		{4EC80B69-AC5A-4D7A-87C8-AD9C4A62D74D}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{4EC80B69-AC5A-4D7A-87C8-AD9C4A62D74D}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{4EC80B69-AC5A-4D7A-87C8-AD9C4A62D74D}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{4EC80B69-AC5A-4D7A-87C8-AD9C4A62D74D}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
