@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConferenceSessionsAPIs", "ConferenceSessionsAPIs\ConferenceSessionsAPIs.csproj", "{75509F43-13F8-4EBB-8FEA-79482E1982DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConferenceSessionsAPIs.Tests", "ConferenceSessionsAPIs.Tests\ConferenceSessionsAPIs.Tests.csproj", "{C189E287-86BD-4549-95C2-1BD35E26ABBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75509F43-13F8-4EBB-8FEA-79482E1982DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75509F43-13F8-4EBB-8FEA-79482E1982DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75509F43-13F8-4EBB-8FEA-79482E1982DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75509F43-13F8-4EBB-8FEA-79482E1982DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C189E287-86BD-4549-95C2-1BD35E26ABBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C189E287-86BD-4549-95C2-1BD35E26ABBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C189E287-86BD-4549-95C2-1BD35E26ABBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C189E287-86BD-4549-95C2-1BD35E26ABBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
