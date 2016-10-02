@@ -1,7 +1,7 @@
 ﻿<Properties StartupItem="AndroidApp/AndroidApp.csproj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AndroidApp/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="AndroidApp/MainActivity.cs" Line="4" Column="14" />
+      <File FileName="AndroidApp/MainActivity.cs" Line="8" Column="30" />
       <File FileName="AndroidApp/Encryption.cs" Line="6" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
@@ -10,5 +10,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.AndroidApp AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.AndroidApp AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.Custom" />
 </Properties>
