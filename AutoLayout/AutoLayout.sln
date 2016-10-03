@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLayout", "AutoLayout\AutoLayout.csproj", "{B9B58712-45A5-4959-8C70-F08B85525A4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9B58712-45A5-4959-8C70-F08B85525A4B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{B9B58712-45A5-4959-8C70-F08B85525A4B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{B9B58712-45A5-4959-8C70-F08B85525A4B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{B9B58712-45A5-4959-8C70-F08B85525A4B}.Release|iPhone.Build.0 = Release|iPhone
+		{B9B58712-45A5-4959-8C70-F08B85525A4B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{B9B58712-45A5-4959-8C70-F08B85525A4B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{B9B58712-45A5-4959-8C70-F08B85525A4B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{B9B58712-45A5-4959-8C70-F08B85525A4B}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
