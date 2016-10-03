@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Threading.Tasks;
 using System.Net.Http;
@@ -36,6 +37,7 @@ namespace APIConsumer
 			var list = await sessionsManager.FetchSesssionsAsync();
 			SessionsList = new ObservableCollection<Session>(list);
 		}
+
 	}
 }
 

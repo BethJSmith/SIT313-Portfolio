@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:WeatherApp" 
+		x:Class="WeatherApp.WeatherAppPage">
+	<StackLayout Padding="0,50,0,0">
+		<Label Text="Weather app" FontSize="Large" HorizontalOptions="Center" />
+		<Label Text="" />
+		<Label Text="Enter a postcode:" HorizontalOptions="Center" />
+		<Entry x:Name="entryText" />
+		<Button Text="Get Weather" Clicked="GetWeather" />
+		<Label Text="" />
+		<Label x:Name="lblLocation" Text="" FontSize="Large" HorizontalOptions="Center" />
+		<Label x:Name="lblTemperature" Text="" HorizontalOptions="Center" />
+		<StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+			<Image x:Name="imgWeather" IsVisible="false" />
+			<Label x:Name="lblWeather" Text="" HorizontalOptions="Center" />
+		</StackLayout>
+	</StackLayout>
+</ContentPage>

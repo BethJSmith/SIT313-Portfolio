@@ -7,10 +7,12 @@ namespace APIConsumer
 {
 	public partial class SessionsListPage : ContentPage
 	{
+		SessionsViewModel svm = new SessionsViewModel();
 		
 		public SessionsListPage()
 		{
 			InitializeComponent();
+			BindingContext = svm;
 
 		}
 

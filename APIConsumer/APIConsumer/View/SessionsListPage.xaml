@@ -5,10 +5,7 @@
 		x:Class="APIConsumer.SessionsListPage">
 	<ContentPage.Content>
 		<StackLayout x:Name="stackLayout">
-			<StackLayout.BindingContext>
-				<local:SessionsViewModel />
-			</StackLayout.BindingContext>
-			<ListView x:Name="myList" ItemsSource="{Binding SessionsList}" IsPullToRefreshEnabled="false">
+			<ListView x:Name="myList" ItemsSource="{Binding .}" IsPullToRefreshEnabled="false">
 				<ListView.ItemTemplate>
 					<DataTemplate>
 						<TextCell Text="{Binding Title}" />
