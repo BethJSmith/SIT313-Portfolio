@@ -8,4 +8,4 @@ This app is compatible with Android.
 
 ## How to run
 
-To run the following app you must have Xamarin.Android installed on your machine. Download the folder named 'PasswordEncryption' to a local location. Load the AndroidAdd.sln file in Visual Studio to view the solution. Click debug to run the app in the Android simulator.
+To run the following app you must have Xamarin.Android installed on your machine. Download the folder named 'PasswordEncryption' to a local location. Load the AndroidApp.sln file in Visual Studio to view the solution. Click debug to run the app in the Android simulator.

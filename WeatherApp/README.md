@@ -2,7 +2,7 @@
 
 Enter a postcode in Australia to show the weather for that location. This is a cross-platform app that was designed to demonstrate the use of web APIs.
 
-The API in use in this app was obtained from [OpenWeatherMap,org](http://openweathermap.org/) and is licensed under the terms of the Creative Commons Attribution-ShareAlike 4.0 Generic License.
+The API in use in this app was obtained from [OpenWeatherMap.org](http://openweathermap.org/) and is licensed under the terms of the Creative Commons Attribution-ShareAlike 4.0 Generic License.
 
 ## How to run
 
