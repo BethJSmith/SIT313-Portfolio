@@ -2,6 +2,7 @@
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Threading.Tasks;
+using System.Net.Http;
 
 namespace APIConsumer
 {
@@ -27,15 +28,13 @@ namespace APIConsumer
 
 		public SessionsViewModel()
 		{
-			SessionsList = new ObservableCollection<Session>();
 			FetchDataAsync();
 		}
 
 		public async Task FetchDataAsync()
 		{
 			var list = await sessionsManager.FetchSesssionsAsync();
-			foreach (Session s in list)
-				SessionsList.Add(s);
+			SessionsList = new ObservableCollection<Session>(list);
 		}
 	}
 }
